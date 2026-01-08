@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Manager</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Password Manager</h1>
+        
+        <div class="tabs">
+            <button class="tab-btn active" data-tab="generator">Generator</button>
+            <button class="tab-btn" data-tab="add">Add Password</button>
+            <button class="tab-btn" data-tab="view">View Passwords</button>
+        </div>
+        
+        <div class="tab-content active" id="generator-tab">
+            <div id="generator-container"></div>
+        </div>
+        
+        <div class="tab-content" id="add-tab">
+            <div id="add-password-container"></div>
+        </div>
+        
+        <div class="tab-content" id="view-tab">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="🔍 Search passwords..." />
+            </div>
+            <div id="password-list-container"></div>
+        </div>
+        
+        <div class="footer-actions">
+            <button id="exportBtn" class="action-btn">Export Passwords</button>
+            <button id="importBtn" class="action-btn">Import Passwords</button>
+            <button id="lockBtn" class="action-btn">Lock</button>
+        </div>
+    </div>
+    
+    <script>
+        require('../../dist/renderer/index.js');
+    </script>
+</body>
+</html>
