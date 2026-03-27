@@ -1,6 +1,9 @@
-# Password Manager - Quick Start Guide
 
+<<<<<<< HEAD
 ## 🚀 Getting Started
+=======
+## Getting Started
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### First Time Setup
 1. Open a terminal in the project directory
@@ -14,7 +17,42 @@
 npm start
 ```
 
+<<<<<<< HEAD
 ## 🔐 Features
+=======
+## Features
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+
+### 1. Master Password Authentication
+
+### 2. Password Generator
+
+### 3. Add New Password
+
+### 4. Manage Passwords
+
+### 5. Export/Import
+
+<<<<<<< HEAD
+## 🔒 Security Features
+=======
+## Security Features
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+## Getting Started
+
+### First Time Setup
+1. Open a terminal in the project directory
+2. Run: `npm start`
+3. The app will launch and prompt you to create a **Master Password**
+4. Choose a strong master password (minimum 8 characters) - **REMEMBER THIS!**
+5. Your master password encrypts all stored passwords
+
+### Running the App
+```bash
+npm start
+```
+
+## Features
 
 ### 1. Master Password Authentication
 - **First Launch**: Create a master password to secure your vault
@@ -44,7 +82,7 @@ npm start
 - **Export**: Save all passwords to a JSON file (encrypted)
 - **Import**: Load passwords from a previously exported file
 
-## 🔒 Security Features
+## Security Features
 
 ✅ **Master Password Protection**: All passwords encrypted with your master password
 ✅ **Strong Encryption**: AES encryption with PBKDF2 key derivation
@@ -52,7 +90,11 @@ npm start
 ✅ **Secure Electron Configuration**: Context isolation and no node integration in renderer
 ✅ **Local Storage Only**: All data stays on your computer
 
+<<<<<<< HEAD
 ## ⚠️ Important Notes
+=======
+## Important Notes
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 - **Remember Your Master Password**: There is NO password recovery option
 - **Backup Your Data**: Use Export to create backups regularly

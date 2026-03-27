@@ -1,6 +1,51 @@
-# Building Your Password Manager as an .EXE
 
+<<<<<<< HEAD
 ## 📦 Create Windows Executable
+=======
+## Create Windows Executable
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+
+### Step 1: Install electron-builder
+```bash
+npm install electron-builder --save-dev
+```
+
+### Step 2: Build the .exe
+```bash
+npm run dist:win
+```
+
+This will create TWO versions in the `release` folder:
+1. **Installer** (.exe) - Full installer with Start Menu shortcuts
+2. **Portable** (.exe) - Single file, no installation needed
+
+### Step 3: Find Your Files
+After building, check the `release` folder:
+
+<<<<<<< HEAD
+## 🚀 Distribution Options
+=======
+## Distribution Options
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+
+### Option 1: Portable .EXE (Easiest)
+
+### Option 2: Installer
+
+### Option 3: Copy to USB/Cloud
+
+<<<<<<< HEAD
+## 🌐 Making it Accessible from Anywhere
+=======
+## Making it Accessible from Anywhere
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+
+### Cloud Storage Sync
+1. Install on your computer
+2. Data is stored in: `%AppData%\password-manager` (Windows)
+3. Use cloud sync apps:
+   - Copy portable .exe to Dropbox/OneDrive/Google Drive
+## Create Windows Executable
 
 ### Step 1: Install electron-builder
 ```bash
@@ -21,7 +66,7 @@ After building, check the `release` folder:
 - `Password Manager Setup 1.0.0.exe` - Installer version
 - `Password Manager 1.0.0.exe` - Portable version (recommended for USB)
 
-## 🚀 Distribution Options
+## Distribution Options
 
 ### Option 1: Portable .EXE (Easiest)
 - Copy `Password Manager 1.0.0.exe` to any computer
@@ -39,7 +84,7 @@ After building, check the `release` folder:
 - Copy the entire `password-manager` folder to USB or cloud storage
 - Run `npm start` on any computer (needs Node.js installed)
 
-## 🌐 Making it Accessible from Anywhere
+## Making it Accessible from Anywhere
 
 ### Cloud Storage Sync
 1. Install on your computer
@@ -53,11 +98,19 @@ After building, check the `release` folder:
 - Use Export/Import to sync passwords between computers
 - Or sync the data folder with cloud storage
 
+<<<<<<< HEAD
 ## ⚠️ Important Security Notes
 
 ### Current App (Desktop Only):
 ✅ Perfect for single computer or USB use
 ✅ Data encrypted and stored locally
+=======
+## Important Security Notes
+
+### Current App (Desktop Only):
+Perfect for single computer or USB use
+Data encrypted and stored locally
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 ✅ No internet connection needed
 ✅ Full control of your data
 

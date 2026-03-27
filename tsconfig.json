@@ -13,6 +13,13 @@
       "*": ["types/*"]
     }
   },
-  "include": ["src/**/*"],
+<<<<<<< HEAD
   "exclude": ["node_modules", "**/*.spec.ts"]
+=======
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "types": ["node"]
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "types": ["node"]
 }

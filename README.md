@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🔐 Password Manager
+=======
+# Password Manager
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 A secure, desktop password manager application built with Electron and TypeScript. Store and manage your passwords safely with military-grade encryption.
 
@@ -6,6 +10,7 @@ A secure, desktop password manager application built with Electron and TypeScrip
 ![Electron](https://img.shields.io/badge/Electron-28.0.0-47848F?logo=electron)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-3178C6?logo=typescript)
 
+<<<<<<< HEAD
 ## ✨ Features
 
 - 🔒 **Master Password Protection** - Secure all passwords with one master password
@@ -29,6 +34,31 @@ A secure, desktop password manager application built with Electron and TypeScrip
 - ✅ Lock feature to secure app without closing
 
 ## 🚀 Quick Start
+=======
+## Features
+
+- **Master Password Protection** - Secure all passwords with one master password
+- **Strong Encryption** - AES encryption with PBKDF2 key derivation
+- **Password Generator** - Create cryptographically secure random passwords
+- **Strength Indicator** - Real-time password strength analysis
+- **Search Functionality** - Quickly find stored passwords
+- **Export/Import** - Backup and restore your password vault
+- **Tabbed Interface** - Clean separation between Generator, Add, and View
+- **Show/Hide Passwords** - Toggle visibility with one click
+- **Copy to Clipboard** - Quick password copying
+- **Local Storage** - All data stays on your computer
+
+## Security Features
+
+- Master password authentication with SHA-256 hashing
+- AES-256 encryption for all stored passwords
+- PBKDF2 key derivation (1000 iterations)
+- Cryptographically secure random number generation
+- No external servers - 100% local storage
+- Lock feature to secure app without closing
+
+## Quick Start
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -52,7 +82,11 @@ npm install
 npm start
 ```
 
+<<<<<<< HEAD
 ## 📦 Building
+=======
+## Building
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### Development
 ```bash
@@ -72,7 +106,11 @@ npm run dist        # All platforms
 
 The executable will be in the `release` folder.
 
+<<<<<<< HEAD
 ## 🎯 Usage
+=======
+## Usage
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### First Time Setup
 1. Launch the application
@@ -89,7 +127,11 @@ The executable will be in the `release` folder.
 - Click **Import** to restore from a backup file
 - Regular backups recommended!
 
+<<<<<<< HEAD
 ## 📁 Project Structure
+=======
+## Project Structure
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ```
 password-manager/
@@ -118,7 +160,11 @@ password-manager/
 └── README.md
 ```
 
+<<<<<<< HEAD
 ## 🔧 Configuration
+=======
+## Configuration
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 Edit `src/utils/encryption.ts` to adjust:
 - PBKDF2 iterations (default: 1000)
@@ -129,14 +175,22 @@ Edit `src/utils/passwordGenerator.ts` to modify:
 - Character sets
 - Strength calculation
 
+<<<<<<< HEAD
 ## ⚠️ Security Notes
+=======
+## Security Notes
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 - **Master Password**: Store securely - cannot be recovered if lost
 - **Data Location**: Windows: `%AppData%\password-manager\`
 - **Backups**: Export regularly to prevent data loss
 - **Portability**: Copy entire app folder to USB for portable use
 
+<<<<<<< HEAD
 ## 🤝 Contributing
+=======
+## Contributing
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 Contributions are welcome! Please:
 
@@ -146,6 +200,7 @@ Contributions are welcome! Please:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
+<<<<<<< HEAD
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -155,12 +210,27 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Thomas Smith**
 
 ## 🙏 Acknowledgments
+=======
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+**Thomas Smith**
+
+## Acknowledgments
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 - Built with [Electron](https://www.electronjs.org/)
 - Encryption via [CryptoJS](https://cryptojs.gitbook.io/)
 - TypeScript for type safety
 
+<<<<<<< HEAD
 ## 📞 Support
+=======
+## Support
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 If you encounter issues:
 1. Check [QUICKSTART.md](QUICKSTART.md) for troubleshooting
@@ -169,4 +239,8 @@ If you encounter issues:
 
 ---
 
+<<<<<<< HEAD
 **⚠️ Disclaimer**: This is a personal password manager. While it uses strong encryption, use at your own risk. For enterprise use, consider professional solutions.
+=======
+**Disclaimer**: This is a personal password manager. While it uses strong encryption, use at your own risk. For enterprise use, consider professional solutions.
+>>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
