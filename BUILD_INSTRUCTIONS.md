@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
-## 📦 Create Windows Executable
-=======
 ## Create Windows Executable
->>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### Step 1: Install electron-builder
 ```bash
@@ -22,11 +18,7 @@ This will create TWO versions in the `release` folder:
 ### Step 3: Find Your Files
 After building, check the `release` folder:
 
-<<<<<<< HEAD
-## 🚀 Distribution Options
-=======
 ## Distribution Options
->>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### Option 1: Portable .EXE (Easiest)
 
@@ -34,11 +26,7 @@ After building, check the `release` folder:
 
 ### Option 3: Copy to USB/Cloud
 
-<<<<<<< HEAD
-## 🌐 Making it Accessible from Anywhere
-=======
 ## Making it Accessible from Anywhere
->>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 ### Cloud Storage Sync
 1. Install on your computer
@@ -98,19 +86,11 @@ After building, check the `release` folder:
 - Use Export/Import to sync passwords between computers
 - Or sync the data folder with cloud storage
 
-<<<<<<< HEAD
 ## ⚠️ Important Security Notes
 
 ### Current App (Desktop Only):
 ✅ Perfect for single computer or USB use
 ✅ Data encrypted and stored locally
-=======
-## Important Security Notes
-
-### Current App (Desktop Only):
-Perfect for single computer or USB use
-Data encrypted and stored locally
->>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 ✅ No internet connection needed
 ✅ Full control of your data
 
