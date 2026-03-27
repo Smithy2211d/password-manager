@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # 🔐 Password Manager
-=======
+
 # Password Manager
->>>>>>> ae81cb2 (Initial commit: working password manager, cleaned docs, fixed build)
 
 A secure, desktop password manager application built with Electron and TypeScript. Store and manage your passwords safely with military-grade encryption.
 
@@ -10,7 +8,6 @@ A secure, desktop password manager application built with Electron and TypeScrip
 ![Electron](https://img.shields.io/badge/Electron-28.0.0-47848F?logo=electron)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-3178C6?logo=typescript)
 
-<<<<<<< HEAD
 ## ✨ Features
 
 - 🔒 **Master Password Protection** - Secure all passwords with one master password
